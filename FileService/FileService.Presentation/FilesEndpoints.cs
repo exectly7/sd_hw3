@@ -49,7 +49,6 @@ public static class FilesEndpoints
 
                 return Results.File(
                     response.Content,
-                    response.FileType,
                     fileDownloadName: id.ToString()
                 );
             })
